@@ -7,5 +7,12 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "tp-common": {
+      "tags": []
+    },
+    "tp-core": {
+      "tags": []
+    }
+  }
 }

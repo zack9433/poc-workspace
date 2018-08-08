@@ -16,6 +16,12 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@poc-workspace/tp-common": [
+        "libs/tp-common/src/index.ts"
+      ],
+      "@poc-workspace/tp-core": [
+        "libs/tp-core/src/index.ts"
+      ]
     }
   },
   "exclude": [
