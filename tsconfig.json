@@ -1,31 +1,20 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "rootDir": "libs",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
     "baseUrl": ".",
     "paths": {
-      "@poc-workspace/tp-common": [
-        "libs/tp-common/src/index.ts"
-      ],
-      "@poc-workspace/tp-core": [
-        "libs/tp-core/src/index.ts"
-      ]
+      "@poc-workspace/tp-common": ["dist/tp-common/src"],
+      "@poc-workspace/tp-core": ["dist/tp-core", "libs/tp-core/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
